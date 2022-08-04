@@ -1,2 +1,2 @@
-# thesiscode
+# Thesis code
 Code for my thesis
