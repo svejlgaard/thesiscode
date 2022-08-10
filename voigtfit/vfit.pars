@@ -58,33 +58,31 @@ lines AlII_1670
 # Define components in redshift space:
 #          ion   z    b   logN
 
- component FeII -255 15.6 14.03 var_b=True var_N=True var_z=True velocity
- component FeII -182 27.7 13.88 var_b=True var_N=True var_z=True velocity
- component FeII -136 21.7 12.55 var_b=True var_N=True var_z=True velocity
- component FeII -5 28.4 12.79 var_b=True var_N=True var_z=True velocity
- component FeII 64 29.6 13.26 var_b=True var_N=True var_z=True velocity
- component FeII 90 23.2 13.68 var_b=True var_N=True var_z=True velocity
+component SiII -230 	15.6 14.33 		var_b=True var_N=True var_z=True velocity
+component SiII -180 	27.7 14.50 		var_b=True var_N=True var_z=True velocity
+component SiII -113 	11.7 13.32 		var_b=True var_N=True var_z=True velocity
+component SiII 0  		28.4 13.15 		var_b=True var_N=True var_z=True velocity
+component SiII 66   	29.6 13.51 		var_b=True var_N=True var_z=True velocity
+component SiII 99   	23.2 14.27 		var_b=True var_N=True var_z=True velocity
 
- component SiII    -325  15.6  14.03   var_N=True  tie_b='b0_FeII' tie_z='z0_FeII'
- component SiII    -265  27.7  14.20   var_N=True  tie_b='b1_FeII' tie_z='z1_FeII'
- component SiII    -202  21.7  13.32   var_N=True  tie_b='b2_FeII' tie_z='z2_FeII'
- component SiII    -100  28.4  13.01   var_N=True  tie_b='b3_FeII' tie_z='z3_FeII'
- component SiII    -15   29.6  13.41   var_N=True  tie_b='b4_FeII' tie_z='z4_FeII'
- component SiII    15    23.2  14.27   var_N=True  tie_b='b5_FeII' tie_z='z5_FeII'
+component FeII -230 	15.6 14.03 		var_N=True  tie_b='b0_SiII' tie_z='z0_SiII'
+component FeII -180 	27.7 13.88 		var_N=True  tie_b='b1_SiII' tie_z='z1_SiII'
+component FeII -113 	21.7 12.55 		var_N=True  tie_b='b2_SiII' tie_z='z2_SiII'
+component FeII 0 		28.4 12.79 		var_N=True  tie_b='b3_SiII' tie_z='z3_SiII'
+component FeII 66 		29.6 13.26 		var_N=True  tie_b='b4_SiII' tie_z='z4_SiII'
+component FeII 99 		23.2 13.68 		var_N=True  tie_b='b5_SiII' tie_z='z5_SiII'
 
- component SiIIa    -265  27.7  12.76   var_N=True  tie_b='b1_FeII' tie_z='z1_FeII'
- component SiIIa    -202  21.7  12.49   var_N=True  tie_b='b2_FeII' tie_z='z2_FeII'
- component SiIIa    -15   29.6  12.02   var_N=True  tie_b='b4_FeII' tie_z='z4_FeII'
- component SiIIa    15    23.2  12.44   var_N=True  tie_b='b5_FeII' tie_z='z5_FeII'
+component SiIIa    -220  27.7  12.76   var_N=True  tie_b='b1_FeII' tie_z='z1_FeII'
+component SiIIa    -202  21.7  12.49   var_N=True  tie_b='b2_FeII' tie_z='z2_FeII'
+component SiIIa    -15   29.6  12.02   var_N=True  tie_b='b4_FeII' tie_z='z4_FeII'
+component SiIIa    15    23.2  12.44   var_N=True  tie_b='b5_FeII' tie_z='z5_FeII'
 
- 
  component SII    -325  15.6  13.93   var_N=True  tie_b='b0_FeII' tie_z='z0_FeII'
  component SII    -265  27.7  14.22   var_N=True  tie_b='b1_FeII' tie_z='z1_FeII'
- component SII    -265  27.7  13.02   var_N=True  tie_b='b2_FeII' tie_z='z2_FeII'
  
  component CII    -325  15.6  15.79   var_N=True  tie_b='b0_FeII' tie_z='z0_FeII'
  component CII    -265  27.7  15.02   var_N=True  tie_b='b1_FeII' tie_z='z1_FeII'
- component CII    -202  21.7  14.35   var_N=True  tie_b='b2_FeII' tie_z='z2_FeII'
+ component CII    -202  21.7  14.05   var_N=True  tie_b='b2_FeII' tie_z='z2_FeII'
  component CII    -100  28.4  14.31   var_N=True  tie_b='b3_FeII' tie_z='z3_FeII'
  component CII    -15   29.6  14.71   var_N=True  tie_b='b4_FeII' tie_z='z4_FeII'
  component CII    15    23.2  15.38   var_N=True  tie_b='b5_FeII' tie_z='z5_FeII'
@@ -92,18 +90,11 @@ lines AlII_1670
  
  component CIIa    -15   29.6  13.17   var_N=True  tie_b='b4_FeII' tie_z='z4_FeII'
  component CIIa    15    23.2  13.48   var_N=True  tie_b='b5_FeII' tie_z='z5_FeII'
-
- component OI    -325  15.6  15.66   var_N=True  tie_b='b0_FeII' tie_z='z0_FeII'
- component OI    -265  27.7  15.68   var_N=True  tie_b='b1_FeII' tie_z='z1_FeII'
- component OI    -202  21.7  14.02   var_N=True  tie_b='b2_FeII' tie_z='z2_FeII'
- component OI    -100  28.4  13.83   var_N=True  tie_b='b3_FeII' tie_z='z3_FeII'
- component OI    -15   29.6  14.01   var_N=True  tie_b='b4_FeII' tie_z='z4_FeII'
- component OI    15    23.2  15.01   var_N=True  tie_b='b5_FeII' tie_z='z5_FeII'
  
- 
- component OIa    -202  21.7  13.62   var_N=True  tie_b='b2_FeII' tie_z='z2_FeII'
- component OIa    -100  28.4  13.83   var_N=True  tie_b='b3_FeII' tie_z='z3_FeII'
- component OIa    15    23.2  12.81   var_N=True  tie_b='b5_FeII' tie_z='z5_FeII'
+ component AlII    -325  15.6  13.26   var_N=True  tie_b='b0_FeII' tie_z='z0_FeII'
+ component AlII    -265  27.7  13.38   var_N=True  tie_b='b1_FeII' tie_z='z1_FeII'
+ component AlII    -202  21.7  12.22   var_N=True  tie_b='b2_FeII' tie_z='z2_FeII'
+ component AlII    -100  28.4  12.80   var_N=True  tie_b='b3_FeII' tie_z='z3_FeII'
  
  component MgII    -325  15.6  14.36   var_N=True  tie_b='b0_FeII' tie_z='z0_FeII'
  component MgII    -265  27.7  15.08   var_N=True  tie_b='b1_FeII' tie_z='z1_FeII'
@@ -112,11 +103,18 @@ lines AlII_1670
  component MgII    -15   29.6  13.76   var_N=True  tie_b='b4_FeII' tie_z='z4_FeII'
  component MgII    15    23.2  13.51   var_N=True  tie_b='b5_FeII' tie_z='z5_FeII'
  
- component AlII    -325  15.6  13.26   var_N=True  tie_b='b0_FeII' tie_z='z0_FeII'
- component AlII    -265  27.7  13.38   var_N=True  tie_b='b1_FeII' tie_z='z1_FeII'
- component AlII    -202  21.7  12.22   var_N=True  tie_b='b2_FeII' tie_z='z2_FeII'
- component AlII    -100  28.4  12.80   var_N=True  tie_b='b3_FeII' tie_z='z3_FeII'
-
+ component OI    -325  15.6  15.66   var_N=True  tie_b='b0_FeII' tie_z='z0_FeII'
+ component OI    -265  27.7  15.68   var_N=True  tie_b='b1_FeII' tie_z='z1_FeII'
+ component OI    -202  21.7  14.02   var_N=True  tie_b='b2_FeII' tie_z='z2_FeII'
+ component OI    -100  28.4  13.83   var_N=True  tie_b='b3_FeII' tie_z='z3_FeII'
+ component OI    -15   29.6  14.01   var_N=True  tie_b='b4_FeII' tie_z='z4_FeII'
+ component OI    15    23.2  15.01   var_N=True  tie_b='b5_FeII' tie_z='z5_FeII'
+ 
+ component OIa    -202  21.7  13.62   var_N=True  tie_b='b2_FeII' tie_z='z2_FeII'
+ component OIa    -100  28.4  13.83   var_N=True  tie_b='b3_FeII' tie_z='z3_FeII'
+ component OIa    15    23.2  12.81   var_N=True  tie_b='b5_FeII' tie_z='z5_FeII'
+ 
+ 
 output velocity
 
 output  individual-components
