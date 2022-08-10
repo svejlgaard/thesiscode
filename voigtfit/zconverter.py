@@ -39,6 +39,6 @@ print(zconv(6.31931, 0.00004))
 # FOR THE HIGH IONISATION LINES
 print('\n')
 print(zconv(6.3120, 0.0004))
-print(zconv(6.31513, 0.00019))
+print(zconv(6.31619, 0.00029))
 print(zconv(6.3173, 0.0005))
 print(zconv(6.31853, 0.00012))
