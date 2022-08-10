@@ -41,9 +41,9 @@ lines NV_1242
 # Define components in redshift space:
 #          ion   z    	b   	logN
 component CIV	-220	56.2	14.36	var_b=True var_N=True velocity var_z=True
-component CIV	-72		46.0	14.13	var_b=True var_N=True velocity var_z=True
-component CIV	0		15.5	16.2	var_b=True var_N=True velocity var_z=True
-component CIV	71		31.2	14.08	var_b=True var_N=True velocity var_z=True
+component CIV	-25		46.0	14.43	var_b=True var_N=True velocity var_z=True
+component CIV	24		15.5	16.25	var_b=True var_N=True velocity var_z=True
+component CIV	71		31.2	14.00	var_b=True var_N=True velocity var_z=True
 
 component SiIV  -220	56.2	13.9	velocity tie_b='b0_CIV' tie_z='z0_CIV' var_N=True
 component SiIV	-72		46		13.4	velocity tie_b='b1_CIV' tie_z='z1_CIV' var_N=True
@@ -51,7 +51,7 @@ component SiIV	0		15.48	13.8	velocity tie_b='b2_CIV' tie_z='z2_CIV' var_N=True
 component SiIV	71		31.2	13.6	velocity tie_b='b3_CIV' tie_z='z3_CIV' var_N=True
 
 
-component NV	0		15.48	14.25	velocity tie_b='b2_CIV' tie_z='z2_CIV' var_N=True
+component NV	0		15.48	14.2	velocity tie_b='b2_CIV' tie_z='z2_CIV' var_N=False
 
 output velocity
 
